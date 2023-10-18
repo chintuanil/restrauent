@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .background-image {
+            background-image: url('https://img.freepik.com/free-photo/top-view-food-frame-with-copy-space_23-2148723447.jpg?size=626&ext=jpg&ga=GA1.2.2071389566.1696693955&semt=sph'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            background-color: rgb(217, 255, 192);
+           
+        }
+    </style>
+    <title>Signup Page</title>
+</head>
+<body class="bg-pink-100">
+    <div class="background-image bg-opacity-60 min-h-screen flex justify-center items-center">
+        <div class="bg-white p-8 rounded-lg shadow-lg w-full sm:w-96">
+            <h2 class="text-2xl font-extrabold text-center mb-4">Sign Up</h2>
+            <form>
+                <!-- Name -->
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-600">Name</label>
+                    <input type="text" id="name" name="name" class="w-full border rounded-lg py-2 px-3" required>
+                </div>
+
+                <!-- Email -->
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-600">Email</label>
+                    <input type="email" id="email" name="email" class="w-full border rounded-lg py-2 px-3" required>
+                </div>
+
+                <!-- Phone Number -->
+                <div class="mb-4">
+                    <label for="phone" class="block text-gray-600">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" class="w-full border rounded-lg py-2 px-3" required>
+                </div>
+
+                <!-- Username -->
+                <div class="mb-4">
+                    <label for="username" class="block text-gray-600">Username</label>
+                    <input type="text" id="username" name="username" class="w-full border rounded-lg py-2 px-3" required>
+                </div>
+
+                <!-- Password -->
+                <div class="mb-4">
+                    <label for="password" class="block text-gray-600">Password</label>
+                    <input type="password" id="password" name="password" class="w-full border rounded-lg py-2 px-3" required>
+                </div>
+
+                <!-- Address -->
+                <div class="mb-4">
+                    <label for="address" class="block text-gray-600">Address</label>
+                    <textarea id="address" name="address" class="w-full border rounded-lg py-2 px-3" required></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="text-center">
+                    <button><a href="login.html" type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Sign Up</a></button>
+                    <button><a href="login.html" type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Login</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
